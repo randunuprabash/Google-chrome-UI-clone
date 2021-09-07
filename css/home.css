@@ -1,0 +1,18 @@
+.link{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    font-size: 13px;
+}
+
+.header_app-icon{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    cursor: pointer;
+}
+.header_app-icon:hover{
+    background-color: rgba(60,64,67,0.08); 
+    border-radius: 100%;
+}
