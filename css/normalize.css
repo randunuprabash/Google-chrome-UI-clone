@@ -347,3 +347,7 @@ template {
 [hidden] {
   display: none;
 }
+ menu{
+   padding: 0;
+   margin: 0;
+ }
