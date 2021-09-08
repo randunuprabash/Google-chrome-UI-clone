@@ -94,7 +94,7 @@ color: white;
     padding-top: 31px;
 }
 .main_wrapper{
-    padding: 20px;
+    padding: 20px 20px 16px;
 }
 
 .main_search-icon{
@@ -117,10 +117,10 @@ margin: auto;
 margin-top: 6px;
 padding-left:14px;
 padding-right: 8px;
-margin-bottom: 20px;
+margin-bottom: 18px;
 
 }
-
+.main_search-wrapper:focus-within,
 .main_search-wrapper:hover{
 background-color: #fff;
 box-shadow: 0 1px 6px rgba(32,33,36,.28);
@@ -131,4 +131,8 @@ border-color: rgba(223,225,229,0);
   margin-left: 13px;
   border: none;
   outline: none;
+}
+
+.main section{
+    font-size: 13px;
 }
