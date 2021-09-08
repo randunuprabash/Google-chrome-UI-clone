@@ -85,3 +85,50 @@ color: white;
     margin: 0 8px;
     padding: 0 23px;
 }
+
+.main{
+    text-align: center;
+}
+
+.main > img{
+    padding-top: 31px;
+}
+.main_wrapper{
+    padding: 20px;
+}
+
+.main_search-icon{
+    width: 20px;
+    height: 20px;
+    color: #9aa0a6;
+    fill: currentColor;
+}
+
+.main_search-wrapper{
+
+display: flex;
+border: 1px solid #dfe1e5;
+box-shadow: none;
+border-radius: 24px;
+height: 44px;
+max-width: 584px;
+align-items: center;
+margin: auto;
+margin-top: 6px;
+padding-left:14px;
+padding-right: 8px;
+margin-bottom: 20px;
+
+}
+
+.main_search-wrapper:hover{
+background-color: #fff;
+box-shadow: 0 1px 6px rgba(32,33,36,.28);
+border-color: rgba(223,225,229,0);
+}
+
+.main_search{
+  margin-left: 13px;
+  border: none;
+  outline: none;
+}
