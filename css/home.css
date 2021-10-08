@@ -190,3 +190,19 @@ border-color: rgba(223,225,229,0);
         flex-wrap: wrap;
     }
 }
+
+@media all and (max-width: 320px){
+    .main_image-wrapper > img{
+        height: 82px;
+    }
+    .page_footer{
+        position: relative;
+    }
+}
+
+@media all and (max-width: 559px){
+    .page_footer{
+        margin-top : 25px;
+        position: relative;
+    }
+}
