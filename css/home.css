@@ -76,6 +76,10 @@ color: white;
     border-radius: 100%;
 }
 
+.header_sign-in-wrapper{
+    display: flex;
+}
+
 .header_link{
     padding-left: 15px;
     color: rgba(0, 0, 0, 0.87);
@@ -191,15 +195,28 @@ border-color: rgba(223,225,229,0);
     }
 }
 
-@media all and (max-width: 320px){
-    .main_image-wrapper > img{
+@media all and (max-width: 680px){
+    .footer_menu-wrapper{
         height: 82px;
+    }
+    .header{
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width: 480px){
+    .main_image-wrapper > img{
+        height: 72px;
     }
     .page_footer{
         position: relative;
     }
 }
-
+@media all and (max-width: 483px){
+    .footer_menu:first-child{
+       display: none;
+    }
+}
 @media all and (max-width: 559px){
     .page_footer{
         margin-top : 25px;
