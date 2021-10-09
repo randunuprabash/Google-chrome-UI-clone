@@ -147,6 +147,10 @@ border-color: rgba(223,225,229,0);
     align-items: flex-end;
 }
 
+.main_copyright-claims{
+    padding: 10px;
+}
+
 /* Footer */
 
 .footer_country{
